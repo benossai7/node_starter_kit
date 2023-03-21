@@ -1,0 +1,35 @@
+{
+  "name": "nodeStarterKit",
+  "version": "1.0.0",
+  "description": "nodeStarterKit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js "    
+  },
+  "author": "Benjamin Ossai",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.3",
+    "form-data": "^4.0.0",
+    "js-base64": "^3.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.9",
+    "nodemailer": "^6.7.7",
+    "paystack-api": "^2.0.6",
+    "pug": "^3.0.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.2"
+  }
+}
